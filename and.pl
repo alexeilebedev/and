@@ -1,5 +1,5 @@
 #!/usr/local/bin/perl
-# Alexei Lebedecv, Mar 10, 2018
+# Alexei Lebedev, Mar 10, 2018
 use strict;
 my $thisfile=$0;
 my $usage="Usage: $0 <appname> [create | build | install | reinstall | run | stop]*
