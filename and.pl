@@ -2,8 +2,8 @@
 # Alexei Lebedev, Mar 10, 2018
 use strict;
 my $thisfile=$0;
-my $usage="Usage: $0 <appname> [create | build | install | reinstall | run | stop]*
-e.g. $0 com.alexeilebedev.helloworld create build run";
+my $usage="Usage: $0 <appname> [create | build | reinstall | start | stop]*
+e.g. $0 com.alexeilebedev.helloworld create build start";
 
 sub checkenv($) {
     foreach my $x (@_) {
